@@ -1,1 +1,47 @@
 @charset "utf-8";
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+/* *{border: 1px solid red;} */
+
+@media (min-width:1025px) {
+    * {display: none;}
+    #greetings {
+        content: "화면크기를 줄여주세요!";
+    }
+}
+
+@media (max-width:421px) {
+    #memoticon {
+        width: 100%;
+    }
+}
+
+#main {
+    text-align: center;
+}
+
+#greetings {
+    font-size: 25px;
+}
+
+#aboutme {
+    font-size: 20px;
+}
+
+#links * {
+    width: 50px;
+}
+
+#links_addition {
+    font-size: 15px;
+    color: gray;
+}
+
+#bodytext {
+    width: 70%;
+    margin: 0 auto;
+}
