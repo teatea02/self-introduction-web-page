@@ -13,6 +13,11 @@
     }
 }
 
+.texts {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
+}
+
 #main {
     text-align: center;
 }
@@ -20,9 +25,13 @@
 #greetings {
     font-size: 25px;
     margin-top: 10px;
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
 }
 
 #aboutme {
+    font-family: 'Baloo Tamma 2', cursive;
+    font-weight: 400;
     font-size: 20px;
 }
 
