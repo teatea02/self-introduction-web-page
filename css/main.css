@@ -36,7 +36,13 @@
     color: gray;
 }
 
-#bodytext {
+#contact {
+    margin-top: 10px;
+    font-size: 5px;
+    color: gray;
+}
+
+p {
     width: 70%;
     margin: 0 auto;
     margin-top: 10px;
