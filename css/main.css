@@ -7,13 +7,6 @@
 
 /* *{border: 1px solid red;} */
 
-@media (min-width:1025px) {
-    * {display: none;}
-    #greetings {
-        content: "화면크기를 줄여주세요!";
-    }
-}
-
 @media (max-width:421px) {
     #memoticon {
         width: 100%;
@@ -34,6 +27,8 @@
 
 #links * {
     width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #links_addition {
@@ -44,4 +39,5 @@
 #bodytext {
     width: 70%;
     margin: 0 auto;
+    margin-top: 10px;
 }
